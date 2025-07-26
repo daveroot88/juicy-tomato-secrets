@@ -18,6 +18,18 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-earth': 'var(--gradient-earth)',
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'elevated': 'var(--shadow-elevated)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +64,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				hero: {
+					DEFAULT: 'hsl(var(--hero))',
+					glow: 'hsl(var(--hero-glow))'
+				},
+				earth: 'hsl(var(--earth))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
