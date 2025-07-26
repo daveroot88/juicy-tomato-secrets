@@ -3,7 +3,6 @@ import heroImage from "@/assets/tomato-botanical-hero.jpg";
 import logoImage from "@/assets/louis-george-logo.png";
 
 export const HeroSection = () => {
-  console.log('HeroSection mounted, logo path:', logoImage);
   
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -22,8 +21,6 @@ export const HeroSection = () => {
             src={logoImage} 
             alt="Louis and George's Logo" 
             className="w-48 h-48 mx-auto mb-6"
-            onLoad={() => console.log('Hero logo loaded:', logoImage)}
-            onError={(e) => console.log('Hero logo error:', e, logoImage)}
           />
           <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-4 leading-tight">
             Ultimate Tomato Guide
