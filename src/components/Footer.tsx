@@ -1,6 +1,8 @@
 import logoImage from "@/assets/louis-george-logo.png";
 
 export const Footer = () => {
+  console.log('Footer mounted, logo path:', logoImage);
+  
   return (
     <footer className="bg-secondary py-12">
       <div className="container mx-auto px-6">
@@ -9,6 +11,8 @@ export const Footer = () => {
             src={logoImage} 
             alt="Louis and George's Logo" 
             className="w-24 h-24 mx-auto mb-4"
+            onLoad={() => console.log('Footer logo loaded:', logoImage)}
+            onError={(e) => console.log('Footer logo error:', e, logoImage)}
           />
           <h3 className="text-xl font-playfair font-bold text-foreground mb-4">
             Louis and George's Ultimate Tomato Guide
