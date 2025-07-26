@@ -15,9 +15,9 @@ export const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-foreground px-6 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Louis and George's
+          The Ultimate
           <span className="block bg-gradient-primary bg-clip-text text-transparent">
-            Ultimate Tomato Guide
+            Tomato Guide
           </span>
         </h1>
         
