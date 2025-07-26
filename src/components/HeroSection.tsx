@@ -19,7 +19,7 @@ export const HeroSection = () => {
           <img 
             src={logoImage} 
             alt="Louis and George's Logo" 
-            className="w-20 h-20 md:w-24 md:h-24 object-contain"
+            className="w-32 h-32 md:w-40 md:h-40 object-contain"
           />
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             The Ultimate
