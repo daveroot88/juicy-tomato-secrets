@@ -29,7 +29,10 @@ export default {
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',
-			},
+        },
+        fontFamily: {
+          'playfair': ['Playfair Display', 'serif'],
+        },
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',

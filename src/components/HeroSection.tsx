@@ -15,21 +15,18 @@ export const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-foreground px-6 max-w-4xl mx-auto">
-        <div className="flex flex-col items-center mb-6">
+        <div className="mb-8">
           <img 
             src={logoImage} 
-            alt="Louis and George's Peaches and Tomatoes" 
-            className="w-24 h-24 md:w-32 md:h-32 mb-4"
+            alt="Louis and George's Logo" 
+            className="w-48 h-48 mx-auto mb-6"
           />
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Louis and George's
-            <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              Ultimate Tomato Guide
-            </span>
+          <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-4 leading-tight">
+            Ultimate Tomato Guide
           </h1>
         </div>
         
-        <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto leading-relaxed font-playfair">
           Everything you need to grow, harvest, and enjoy the perfect tomatoes. 
           From seed to sauce, master the art of tomato cultivation.
         </p>
