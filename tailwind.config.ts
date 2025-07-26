@@ -21,7 +21,7 @@ export default {
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-navy': 'var(--gradient-navy)',
 			},
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',
@@ -68,7 +68,7 @@ export default {
 					DEFAULT: 'hsl(var(--hero))',
 					glow: 'hsl(var(--hero-glow))'
 				},
-				earth: 'hsl(var(--earth))',
+				'navy-light': 'hsl(var(--navy-light))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

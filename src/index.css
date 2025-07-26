@@ -8,34 +8,34 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 20 14.3% 97.1%;
-    --foreground: 13 6% 15%;
+    --background: 0 0% 100%;
+    --foreground: 220 100% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 13 6% 15%;
+    --card-foreground: 220 100% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 13 6% 15%;
+    --popover-foreground: 220 100% 10%;
 
-    --primary: 0 84% 60%;
+    --primary: 220 100% 20%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 120 40% 95%;
-    --secondary-foreground: 120 10% 20%;
+    --secondary: 220 20% 95%;
+    --secondary-foreground: 220 100% 15%;
 
-    --muted: 25 20% 95%;
-    --muted-foreground: 25 8% 45%;
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 20% 45%;
 
-    --accent: 120 60% 50%;
+    --accent: 220 100% 50%;
     --accent-foreground: 0 0% 98%;
 
-    --hero: 0 70% 45%;
-    --hero-glow: 0 85% 70%;
-    --earth: 30 40% 85%;
+    --hero: 220 100% 15%;
+    --hero-glow: 220 100% 60%;
+    --navy-light: 220 60% 95%;
     
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--hero-glow)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--hero)) 0%, hsl(var(--primary)) 100%);
-    --gradient-earth: linear-gradient(180deg, hsl(var(--earth)) 0%, hsl(var(--background)) 100%);
+    --gradient-navy: linear-gradient(180deg, hsl(var(--navy-light)) 0%, hsl(var(--background)) 100%);
     
     --shadow-glow: 0 10px 40px hsl(var(--primary) / 0.3);
     --shadow-elevated: 0 20px 60px hsl(var(--primary) / 0.15);
@@ -68,34 +68,34 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 13 8% 8%;
-    --foreground: 20 14.3% 97.1%;
+    --background: 220 100% 5%;
+    --foreground: 0 0% 98%;
 
-    --card: 13 8% 10%;
-    --card-foreground: 20 14.3% 97.1%;
+    --card: 220 100% 8%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 13 8% 10%;
-    --popover-foreground: 20 14.3% 97.1%;
+    --popover: 220 100% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 0 84% 60%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 220 100% 60%;
+    --primary-foreground: 220 100% 5%;
 
-    --secondary: 13 8% 15%;
-    --secondary-foreground: 20 14.3% 97.1%;
+    --secondary: 220 50% 12%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 13 8% 15%;
-    --muted-foreground: 25 8% 65%;
+    --muted: 220 50% 12%;
+    --muted-foreground: 220 20% 65%;
 
-    --accent: 120 60% 50%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 220 100% 70%;
+    --accent-foreground: 220 100% 5%;
 
-    --hero: 0 70% 45%;
-    --hero-glow: 0 85% 70%;
-    --earth: 13 8% 12%;
+    --hero: 220 100% 50%;
+    --hero-glow: 220 100% 75%;
+    --navy-light: 220 50% 10%;
     
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--hero-glow)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--hero)) 0%, hsl(var(--primary)) 100%);
-    --gradient-earth: linear-gradient(180deg, hsl(var(--earth)) 0%, hsl(var(--background)) 100%);
+    --gradient-navy: linear-gradient(180deg, hsl(var(--navy-light)) 0%, hsl(var(--background)) 100%);
     
     --shadow-glow: 0 10px 40px hsl(var(--primary) / 0.4);
     --shadow-elevated: 0 20px 60px hsl(var(--primary) / 0.2);
