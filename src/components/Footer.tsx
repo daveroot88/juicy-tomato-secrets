@@ -1,17 +1,10 @@
-import logoImage from "@/assets/louis-george-logo.png";
-
 export const Footer = () => {
   return (
     <footer className="bg-secondary py-12">
       <div className="container mx-auto px-6">
         <div className="text-center">
-          <img 
-            src={logoImage} 
-            alt="Louis and George's Logo" 
-            className="w-24 h-24 mx-auto mb-4"
-          />
-          <h3 className="text-xl font-bold text-foreground mb-4">
-            Louis and George's Ultimate Tomato Guide
+          <h3 className="text-2xl font-bold text-foreground mb-4">
+            🍅 Louis and George's Ultimate Tomato Guide
           </h3>
           <p className="text-muted-foreground mb-6">
             Everything you need to grow perfect tomatoes
