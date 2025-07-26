@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/tomato-botanical-hero.jpg";
+import logoImage from "@/assets/louis-george-logo.png";
 
 export const HeroSection = () => {
   return (
@@ -14,12 +15,19 @@ export const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-foreground px-6 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          The Ultimate
-          <span className="block bg-gradient-primary bg-clip-text text-transparent">
-            Tomato Guide
-          </span>
-        </h1>
+        <div className="flex items-center justify-center gap-6 mb-6">
+          <img 
+            src={logoImage} 
+            alt="Louis and George's Logo" 
+            className="w-20 h-20 md:w-24 md:h-24 object-contain"
+          />
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+            The Ultimate
+            <span className="block bg-gradient-primary bg-clip-text text-transparent">
+              Tomato Guide
+            </span>
+          </h1>
+        </div>
         
         <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           Everything you need to grow, harvest, and enjoy the perfect tomatoes. 
