@@ -21,12 +21,12 @@ export const HeroSection = () => {
             alt="Louis and George's Logo" 
             className="w-48 h-48 mx-auto mb-6"
           />
-          <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-4 leading-tight">
-            Ultimate Tomato Guide
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+            The Ultimate Tomato Guide
           </h1>
         </div>
         
-        <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto leading-relaxed font-playfair">
+        <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           Everything you need to grow, harvest, and enjoy the perfect tomatoes. 
           From seed to sauce, master the art of tomato cultivation.
         </p>
