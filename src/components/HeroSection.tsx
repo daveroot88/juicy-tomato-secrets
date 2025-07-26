@@ -3,7 +3,6 @@ import heroImage from "@/assets/tomato-botanical-hero.jpg";
 import logoImage from "@/assets/louis-george-logo.png";
 
 export const HeroSection = () => {
-  
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}

@@ -1,7 +1,6 @@
 import logoImage from "@/assets/louis-george-logo.png";
 
 export const Footer = () => {
-  
   return (
     <footer className="bg-secondary py-12">
       <div className="container mx-auto px-6">
